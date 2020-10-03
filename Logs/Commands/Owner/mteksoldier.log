@@ -1,0 +1,787 @@
+29/09/2020 20:01:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+29/09/2020 20:01:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'createworld '
+29/09/2020 20:02:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'moongen '
+29/09/2020 20:02:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'doorgen '
+29/09/2020 20:02:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'signgen '
+29/09/2020 20:02:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'telgen '
+29/09/2020 20:02:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'genkhaldun '
+29/09/2020 20:02:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'generatefactions '
+29/09/2020 20:03:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'decorate '
+29/09/2020 20:06:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'XmlLoad Spawns'
+29/09/2020 20:06:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'gennewmagincia '
+29/09/2020 20:06:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'genchampspawns '
+29/09/2020 20:07:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'allspells '
+29/09/2020 20:07:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') filling spellbook 0x400006D6 (Spellbook)
+29/09/2020 20:07:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+29/09/2020 20:09:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetSkill magery 75'
+29/09/2020 20:09:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Magery.Base' of 0x3C "Whipmaster" ('mteksoldier') to '75'
+29/09/2020 20:09:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetSkill animaltaming 75'
+29/09/2020 20:09:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'AnimalTaming.Base' of 0x3C "Whipmaster" ('mteksoldier') to '75'
+29/09/2020 20:11:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark '
+29/09/2020 20:11:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark BritBank'
+29/09/2020 20:11:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'checkfillables '
+29/09/2020 20:16:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+29/09/2020 20:19:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+29/09/2020 20:19:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+29/09/2020 20:19:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+29/09/2020 20:41:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+29/09/2020 20:42:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: False) (Save: True)
+29/09/2020 20:42:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+29/09/2020 21:34:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+29/09/2020 21:37:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+29/09/2020 21:37:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: False) (Save: True)
+29/09/2020 21:37:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+29/09/2020 21:47:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'allspells '
+29/09/2020 21:47:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') filling spellbook 0x40029631 (Spellbook)
+29/09/2020 21:47:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+29/09/2020 21:48:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetSkill magery 75'
+29/09/2020 21:48:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Magery.Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '75'
+29/09/2020 21:48:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetSkill animaltaming 75'
+29/09/2020 21:48:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'AnimalTaming.Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '75'
+29/09/2020 21:48:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetSkill veterinary 30'
+29/09/2020 21:48:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Veterinary.Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '30'
+29/09/2020 21:49:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Mark britbank'
+29/09/2020 21:51:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddToPack gold 5000'
+29/09/2020 21:51:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1418, 1685, 0) in Trammel: "gold" "5000"
+29/09/2020 21:51:05: 192.168.50.183: Serials: 0x4002EAEB; 
+30/09/2020 03:27:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 03:32:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 03:32:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 03:34:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add runebook'
+30/09/2020 03:34:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1473, 1003, 0) in Trammel: "runebook"
+30/09/2020 03:34:13: 192.168.50.183: Serials: 0x40035396; 
+30/09/2020 03:35:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'GetFollowers '
+30/09/2020 03:35:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 03:36:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'GetFollowers '
+30/09/2020 03:36:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 05:18:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 05:19:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Animal Taming: 81.7].Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '81.7'
+30/09/2020 05:21:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+30/09/2020 05:21:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+30/09/2020 05:21:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+30/09/2020 05:23:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'genreports '
+30/09/2020 05:24:07: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: False) (Save: True)
+30/09/2020 05:24:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+30/09/2020 13:37:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 13:39:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'FollowersMax' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '10'
+30/09/2020 13:41:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 13:44:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 13:46:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 13:54:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 13:54:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark '
+30/09/2020 13:54:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark Honesty'
+30/09/2020 13:54:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 15:23:49: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 15:24:00: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 15:24:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 15:25:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+30/09/2020 15:25:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 15:26:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark PapuaBank'
+30/09/2020 15:26:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 15:26:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+30/09/2020 15:26:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 15:27:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 15:27:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 15:28:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add bless'
+30/09/2020 15:28:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5676, 3141, 12) in Trammel: "bless"
+30/09/2020 15:28:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add blessdeed'
+30/09/2020 15:35:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5676, 3143, 12) in Trammel: "PowerScrollGiver"
+30/09/2020 15:35:10: 192.168.50.183: Serials: 0x4002E59E; 
+30/09/2020 15:41:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddToPack scrollof'
+30/09/2020 15:41:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5675, 3142, 12) in Trammel: "scrollof"
+30/09/2020 15:41:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add scroll'
+30/09/2020 15:43:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Remove '
+30/09/2020 15:43:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x4002E59E (PowerScrollGiver)
+30/09/2020 15:44:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add '
+30/09/2020 15:50:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add '
+30/09/2020 15:51:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add scroll'
+30/09/2020 15:52:00: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5676, 3141, 12) in Trammel: "PowerScrollBook"
+30/09/2020 15:52:00: 192.168.50.183: Serials: 0x4002E94C; 
+30/09/2020 15:52:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add power'
+30/09/2020 15:52:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add scroll'
+30/09/2020 15:56:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add powerscroll animaltaming 120'
+30/09/2020 15:56:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5673, 3142, 12) in Trammel: "powerscroll" "animaltaming" "120"
+30/09/2020 15:56:48: 192.168.50.183: Serials: 0x4002E9C5; 
+30/09/2020 15:59:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add scrollofpower'
+30/09/2020 16:00:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add powerscroll stat'
+30/09/2020 16:00:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5676, 3140, 12) in Trammel: "powerscroll" "stat"
+30/09/2020 16:00:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add powerscroll stat 25'
+30/09/2020 16:00:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5673, 3140, 12) in Trammel: "powerscroll" "stat" "25"
+30/09/2020 16:01:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add statcapscroll'
+30/09/2020 16:01:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5673, 3140, 12) in Trammel: "statcapscroll"
+30/09/2020 16:01:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add statcapscroll 25'
+30/09/2020 16:01:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5673, 3140, 12) in Trammel: "statcapscroll" "25"
+30/09/2020 16:01:34: 192.168.50.183: Serials: 0x4002E9FC; 
+30/09/2020 16:04:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add statcapscroll 5'
+30/09/2020 16:04:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5676, 3140, 12) in Trammel: "statcapscroll" "5"
+30/09/2020 16:04:56: 192.168.50.183: Serials: 0x4002EC08; 
+30/09/2020 17:21:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 17:22:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark FireIsland'
+30/09/2020 17:22:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 17:23:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 17:24:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 17:25:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 17:26:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SpeedBoost '
+30/09/2020 17:31:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark FireTemple'
+30/09/2020 17:31:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 17:33:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'FollowersMax' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '20'
+30/09/2020 17:34:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'StatCap' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '250'
+30/09/2020 17:55:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 17:55:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0xAA5E "Marbas" (no account)
+30/09/2020 17:55:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 17:56:00: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x295D "Satanciae" (no account)
+30/09/2020 17:56:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'res '
+30/09/2020 17:56:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'res '
+30/09/2020 17:56:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 17:58:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'setskill animaltaming 100'
+30/09/2020 17:58:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'AnimalTaming.Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '100'
+30/09/2020 17:59:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 17:59:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+30/09/2020 18:08:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 18:08:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0xAAAD "a drake" (no account)
+30/09/2020 18:08:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 18:08:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x3335 "a drake" (no account)
+30/09/2020 18:34:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 18:34:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+30/09/2020 19:26:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 19:27:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 19:27:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0xAB8E "a drake" (no account)
+30/09/2020 19:27:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'res '
+30/09/2020 19:27:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 19:29:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 19:30:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Anatomy: 0].Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '0'
+30/09/2020 19:30:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Arms Lore: 0].Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '0'
+30/09/2020 19:30:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Resisting Spells: 90].Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '90'
+30/09/2020 19:33:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 19:33:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0xAC8F "a drake" (no account)
+30/09/2020 19:33:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+30/09/2020 19:33:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0xAB3D "Sidragrosam" (no account)
+30/09/2020 19:37:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 19:37:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+30/09/2020 19:38:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'res '
+30/09/2020 19:38:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 19:38:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 19:38:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+30/09/2020 19:45:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Animal Taming: 105].Base' of 0x5D95 "a grizzled man" ('PiIsExactly3') to '105'
+30/09/2020 19:45:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+30/09/2020 19:46:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+30/09/2020 19:46:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x5D95 "a grizzled man" ('PiIsExactly3')
+30/09/2020 20:53:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 20:54:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add runebook'
+30/09/2020 20:54:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (4543, 852, 30) in Trammel: "runebook"
+30/09/2020 20:54:06: 192.168.50.183: Serials: 0x40034803; 
+30/09/2020 21:29:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:29:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:30:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 21:30:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:31:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark PapuaBank'
+30/09/2020 21:31:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:31:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'cast nightsight'
+30/09/2020 21:31:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'cast '
+30/09/2020 21:31:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'cast night sight'
+30/09/2020 21:32:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'cast night'
+30/09/2020 21:33:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:33:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:36:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:37:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 21:38:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 21:40:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 21:42:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'LearnAllMasteries '
+30/09/2020 21:43:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'SetAllSkills Whipmaster 120'
+30/09/2020 21:43:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'setallskills 120'
+30/09/2020 21:43:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'EverySkill.Base' of 0x3C "Whipmaster" ('mteksoldier') to '120'
+30/09/2020 21:44:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddAtt '
+30/09/2020 21:45:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 21:45:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Dex' of 0x3C "Whipmaster" ('mteksoldier') to '125'
+30/09/2020 21:46:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Int' of 0x3C "Whipmaster" ('mteksoldier') to '125'
+30/09/2020 21:46:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Str' of 0x3C "Whipmaster" ('mteksoldier') to '125'
+30/09/2020 21:47:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+30/09/2020 21:47:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add regs'
+30/09/2020 21:47:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5528, 2575, -8) in Felucca: "BagOfReagents"
+30/09/2020 21:47:46: 192.168.50.183: Serials: 0x40035041; 
+30/09/2020 21:51:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 21:56:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+30/09/2020 22:00:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 23:30:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Flying' of 0x3C "Whipmaster" ('mteksoldier') to 'True'
+30/09/2020 23:30:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+30/09/2020 23:30:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Flying' of 0x3C "Whipmaster" ('mteksoldier') to 'False'
+30/09/2020 23:30:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'CanSwim' of 0x3C "Whipmaster" ('mteksoldier') to 'True'
+30/09/2020 23:31:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Flying' of 0x3C "Whipmaster" ('mteksoldier') to 'True'
+01/10/2020 00:03:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 00:03:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+01/10/2020 00:07:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 00:07:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 00:14:49: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 00:14:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x89 "Satanciae" (no account)
+01/10/2020 00:14:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 00:14:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x39CE "Heramael" (no account)
+01/10/2020 00:15:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x5D95 "a grizzled man" ('PiIsExactly3')
+01/10/2020 00:15:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+01/10/2020 00:17:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'remove '
+01/10/2020 00:17:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x40035AB2 (Corpse)
+01/10/2020 00:41:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 00:41:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+01/10/2020 01:36:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+01/10/2020 01:47:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 01:47:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+01/10/2020 01:58:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+01/10/2020 01:59:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'GetFollowers '
+01/10/2020 01:59:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+01/10/2020 02:15:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 02:15:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+01/10/2020 02:17:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+01/10/2020 02:22:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+01/10/2020 02:25:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'False'
+01/10/2020 02:32:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x5D95 "a grizzled man" ('PiIsExactly3') to 'True'
+01/10/2020 03:15:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:18:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:19:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:22:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:24:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:25:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:37:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:38:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:38:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:45:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:46:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:47:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 03:48:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 04:05:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 04:06:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HasStatReward' of 0x3C "Whipmaster" ('mteksoldier') to 'True'
+01/10/2020 04:07:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Hidden' of 0x3C "Whipmaster" ('mteksoldier') to 'False'
+01/10/2020 04:08:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:09:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 04:09:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x564F "a fire elemental" (no account)
+01/10/2020 04:11:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:16:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'get '
+01/10/2020 04:16:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+01/10/2020 04:16:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add deed'
+01/10/2020 04:17:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5575, 1862, 0) in Felucca: "BrickHouseDeed"
+01/10/2020 04:17:22: 192.168.50.183: Serials: 0x400370BB; 
+01/10/2020 04:17:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'remove '
+01/10/2020 04:17:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x400370BB (BrickHouseDeed)
+01/10/2020 04:17:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+01/10/2020 04:17:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add house'
+01/10/2020 04:18:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5574, 1862, 0) in Felucca: "StonePlasterHouseDeed"
+01/10/2020 04:18:12: 192.168.50.183: Serials: 0x400370C7; 
+01/10/2020 04:19:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'remove '
+01/10/2020 04:19:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Delete '
+01/10/2020 04:19:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Delete '
+01/10/2020 04:19:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x400370CC (HouseSign)
+01/10/2020 04:19:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:21:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add '
+01/10/2020 04:22:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add HousePlacementTool'
+01/10/2020 04:22:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5219, 176, 25) in Felucca: "HousePlacementTool"
+01/10/2020 04:22:38: 192.168.50.183: Serials: 0x400370FF; 
+01/10/2020 04:23:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:23:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x40037107 (HouseSign)
+01/10/2020 04:24:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:25:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:25:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 04:25:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x9421 "an acid elemental" (no account)
+01/10/2020 04:29:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:31:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:31:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:33:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 04:33:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x3352 "Xiltanth" (no account)
+01/10/2020 04:33:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:34:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:34:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:35:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:36:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:36:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:36:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:37:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:37:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:37:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:39:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 04:39:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x67B2 "a blood elemental" (no account)
+01/10/2020 04:40:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:42:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:43:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:43:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:43:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:44:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:46:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 04:49:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 04:49:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+01/10/2020 04:52:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add warhorse'
+01/10/2020 04:53:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add '
+01/10/2020 04:53:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add UnholySteed'
+01/10/2020 04:53:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2968, 66) in Felucca: "UnholySteed"
+01/10/2020 04:53:55: 192.168.50.183: Serials: 0xB0F3; 
+01/10/2020 04:54:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:54:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0F3 "a dark steed" (no account)
+01/10/2020 04:54:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Windrunner'
+01/10/2020 04:54:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5168, 2968, 66) in Felucca: "Windrunner"
+01/10/2020 04:54:14: 192.168.50.183: Serials: 0xB0F4; 
+01/10/2020 04:54:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:54:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0F4 "Windrunner" (no account)
+01/10/2020 04:55:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add FireSteed'
+01/10/2020 04:55:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5166, 2966, 61) in Felucca: "FireSteed"
+01/10/2020 04:55:33: 192.168.50.183: Serials: 0xB0FA; 
+01/10/2020 04:55:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:55:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0FA "a fire steed" (no account)
+01/10/2020 04:55:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add HellSteed'
+01/10/2020 04:55:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5165, 2967, 64) in Felucca: "HellSteed"
+01/10/2020 04:55:48: 192.168.50.183: Serials: 0xB0FB; 
+01/10/2020 04:55:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:55:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0FB "a hellsteed" (no account)
+01/10/2020 04:55:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add FactionWarHorse'
+01/10/2020 04:55:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5165, 2965, 58) in Felucca: "FactionWarHorse"
+01/10/2020 04:55:59: 192.168.50.183: Serials: 0xB0FC; 
+01/10/2020 04:56:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:56:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0FC "a war horse" (no account)
+01/10/2020 04:56:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Hiryu'
+01/10/2020 04:56:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5165, 2967, 64) in Felucca: "Hiryu"
+01/10/2020 04:56:09: 192.168.50.183: Serials: 0xB0FD; 
+01/10/2020 04:56:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:56:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB0FD "a hiryu" (no account)
+01/10/2020 04:57:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Palomino'
+01/10/2020 04:57:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2969, 69) in Felucca: "Palomino"
+01/10/2020 04:57:04: 192.168.50.183: Serials: 0xB105; 
+01/10/2020 04:57:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:57:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB105 "a horse" (no account)
+01/10/2020 04:57:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Ridgeback'
+01/10/2020 04:57:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5167, 2967, 64) in Felucca: "Ridgeback"
+01/10/2020 04:57:15: 192.168.50.183: Serials: 0xB106; 
+01/10/2020 04:57:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:57:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB106 "a ridgeback" (no account)
+01/10/2020 04:57:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add SkeletalMount'
+01/10/2020 04:57:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2969, 69) in Felucca: "SkeletalMount"
+01/10/2020 04:57:26: 192.168.50.183: Serials: 0xB107; 
+01/10/2020 04:57:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:57:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB107 "a skeletal steed" (no account)
+01/10/2020 04:57:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Rend'
+01/10/2020 04:57:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2968, 66) in Felucca: "Rend"
+01/10/2020 04:57:34: 192.168.50.183: Serials: 0xB108; 
+01/10/2020 04:57:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Reptalon'
+01/10/2020 04:57:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5165, 2968, 65) in Felucca: "Reptalon"
+01/10/2020 04:57:46: 192.168.50.183: Serials: 0xB109; 
+01/10/2020 04:57:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:57:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB109 "a reptalon" (no account)
+01/10/2020 04:58:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Lasher'
+01/10/2020 04:58:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5166, 2966, 61) in Felucca: "Lasher"
+01/10/2020 04:58:06: 192.168.50.183: Serials: 0xB10A; 
+01/10/2020 04:58:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 04:58:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB108 "Rend" (no account)
+01/10/2020 04:59:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add dye'
+01/10/2020 04:59:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5172, 2969, 67) in Felucca: "WhiteClothDyeTub"
+01/10/2020 04:59:20: 192.168.50.183: Serials: 0x40037444; 
+01/10/2020 05:00:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add dye'
+01/10/2020 05:00:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5172, 2969, 67) in Felucca: "WhiteLeatherDyeTub"
+01/10/2020 05:00:18: 192.168.50.183: Serials: 0x40037461; 
+01/10/2020 05:01:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:01:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB10A "Lasher" (no account)
+01/10/2020 05:01:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add pants'
+01/10/2020 05:01:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5171, 2968, 72) in Felucca: "LibraryFriendPants"
+01/10/2020 05:01:31: 192.168.50.183: Serials: 0x4003746C; 
+01/10/2020 05:02:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5168, 2969, 70) in Felucca: "Nightmare"
+01/10/2020 05:02:41: 192.168.50.183: Serials: 0xB112; 
+01/10/2020 05:02:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2969, 69) in Felucca: "Nightmare"
+01/10/2020 05:02:42: 192.168.50.183: Serials: 0xB113; 
+01/10/2020 05:02:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2966, 64) in Felucca: "Nightmare"
+01/10/2020 05:02:43: 192.168.50.183: Serials: 0xB114; 
+01/10/2020 05:02:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:02:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB112 "a nightmare" (no account)
+01/10/2020 05:02:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:02:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB113 "a nightmare" (no account)
+01/10/2020 05:03:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:03:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB114 "a nightmare" (no account)
+01/10/2020 05:03:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add holy'
+01/10/2020 05:03:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5168, 2968, 66) in Felucca: "HolySteed"
+01/10/2020 05:03:27: 192.168.50.183: Serials: 0xB11B; 
+01/10/2020 05:03:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5169, 2969, 69) in Felucca: "HolySteed"
+01/10/2020 05:03:29: 192.168.50.183: Serials: 0xB11C; 
+01/10/2020 05:03:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5165, 2966, 60) in Felucca: "HolySteed"
+01/10/2020 05:03:30: 192.168.50.183: Serials: 0xB11D; 
+01/10/2020 05:03:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5167, 2968, 66) in Felucca: "HolySteed"
+01/10/2020 05:03:30: 192.168.50.183: Serials: 0xB11E; 
+01/10/2020 05:03:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:03:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB11B "a silver steed" (no account)
+01/10/2020 05:03:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:03:49: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB11E "a silver steed" (no account)
+01/10/2020 05:03:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:03:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB11C "a silver steed" (no account)
+01/10/2020 05:03:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:03:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB11D "a silver steed" (no account)
+01/10/2020 05:04:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add '
+01/10/2020 05:04:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add CuSidhe'
+01/10/2020 05:04:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5167, 2967, 64) in Felucca: "CuSidhe"
+01/10/2020 05:04:20: 192.168.50.183: Serials: 0xB11F; 
+01/10/2020 05:04:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:04:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB11F "a cu sidhe" (no account)
+01/10/2020 05:04:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add SilverSteed'
+01/10/2020 05:04:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5167, 2969, 70) in Felucca: "SilverSteed"
+01/10/2020 05:04:44: 192.168.50.183: Serials: 0xB120; 
+01/10/2020 05:04:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Unicorn'
+01/10/2020 05:04:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5167, 2969, 70) in Felucca: "Unicorn"
+01/10/2020 05:04:55: 192.168.50.183: Serials: 0xB121; 
+01/10/2020 05:06:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddAtt '
+01/10/2020 05:06:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'GetAtt '
+01/10/2020 05:08:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddMenu '
+01/10/2020 05:09:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:09:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB121 "a unicorn" (no account)
+01/10/2020 05:09:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add '
+01/10/2020 05:10:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add SamaritanRobe'
+01/10/2020 05:10:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5150, 2953, 23) in Felucca: "SamaritanRobe"
+01/10/2020 05:10:19: 192.168.50.183: Serials: 0x400374EB; 
+01/10/2020 05:10:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:10:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x400374EB (SamaritanRobe)
+01/10/2020 05:11:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add TricorneHat'
+01/10/2020 05:11:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5156, 2952, 5) in Felucca: "TricorneHat"
+01/10/2020 05:11:43: 192.168.50.183: Serials: 0x400374F3; 
+01/10/2020 05:12:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 05:13:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HairHue' of 0x3C "Whipmaster" ('mteksoldier') to '1149'
+01/10/2020 05:13:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HairItemID' of 0x3C "Whipmaster" ('mteksoldier') to '8251'
+01/10/2020 05:15:00: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Female' of 0x3C "Whipmaster" ('mteksoldier') to 'True'
+01/10/2020 05:15:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add '
+01/10/2020 05:15:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add Unicorn'
+01/10/2020 05:15:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5155, 2950, 4) in Felucca: "Unicorn"
+01/10/2020 05:15:31: 192.168.50.183: Serials: 0xB132; 
+01/10/2020 05:15:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+01/10/2020 05:15:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB120 "a silver steed" (no account)
+01/10/2020 13:24:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+01/10/2020 13:26:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark CyclopsValley'
+01/10/2020 13:26:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 13:40:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: True) (Save: True)
+01/10/2020 13:40:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+01/10/2020 16:11:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 16:11:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: False) (Save: True)
+01/10/2020 16:11:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+01/10/2020 18:32:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 18:42:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'allspells '
+01/10/2020 18:43:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'allspells '
+01/10/2020 18:43:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') filling spellbook 0x4002CA0F (Spellbook)
+01/10/2020 18:43:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Magery: 50].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '50'
+01/10/2020 18:44:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'AcceleratedSkill' of 0x7990 "a merry man" ('PiIsExactly3') to 'Provocation'
+01/10/2020 18:58:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Provocation: 50].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '50'
+01/10/2020 19:08:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 19:08:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x47B8 "a wraith" (no account)
+01/10/2020 19:08:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 19:08:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x59B7 "a zombie" (no account)
+01/10/2020 19:08:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 19:08:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x5F8A "a zombie" (no account)
+01/10/2020 19:08:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+01/10/2020 19:29:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Provocation: 60].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '60'
+01/10/2020 20:08:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark BritBank'
+01/10/2020 20:09:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:10:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Provocation: 75].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '75'
+01/10/2020 20:10:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'RawStr' of 0x7990 "a merry man" ('PiIsExactly3') to '60'
+01/10/2020 20:10:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'hide '
+01/10/2020 20:11:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add runebook'
+01/10/2020 20:11:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5515, 671, 21) in Trammel: "runebook"
+01/10/2020 20:11:26: 192.168.50.183: Serials: 0x40031916; 
+01/10/2020 20:11:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add runebook'
+01/10/2020 20:11:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5515, 672, 21) in Trammel: "runebook"
+01/10/2020 20:11:39: 192.168.50.183: Serials: 0x4003191C; 
+01/10/2020 20:14:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:14:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Provocation: 80].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '80'
+01/10/2020 20:37:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:37:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Hiding: 50].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '50'
+01/10/2020 20:37:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Hiding: 70].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '70'
+01/10/2020 20:45:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add reagents'
+01/10/2020 20:45:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5490, 1892, 0) in Felucca: "BagOfReagents"
+01/10/2020 20:45:17: 192.168.50.183: Serials: 0x40032510; 
+01/10/2020 20:45:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:45:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Magery: 70].Base' of 0x7990 "a merry man" ('PiIsExactly3') to '70'
+01/10/2020 20:53:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 20:53:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:55:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 20:55:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 20:56:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark ShameLvl2'
+01/10/2020 20:56:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 20:57:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Int' of 0x7990 "a merry man" ('PiIsExactly3') to '60'
+01/10/2020 21:00:07: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 21:00:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x38A "an air elemental" (no account)
+01/10/2020 21:00:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+01/10/2020 21:01:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 21:01:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+01/10/2020 21:01:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x32FE "an air elemental" (no account)
+01/10/2020 21:01:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+01/10/2020 21:02:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x7990 "a merry man" ('PiIsExactly3') to 'True'
+01/10/2020 21:04:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:07:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:09:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 21:10:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:10:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Squelched' of 0x7990 "a merry man" ('PiIsExactly3') to 'True'
+01/10/2020 21:10:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Squelched' of 0x7990 "a merry man" ('PiIsExactly3') to 'True'
+01/10/2020 21:10:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Squelched' of 0x7990 "a merry man" ('PiIsExactly3') to 'False'
+01/10/2020 21:10:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0x7990 "a merry man" ('PiIsExactly3') to 'False'
+01/10/2020 21:11:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:13:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:13:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:13:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:14:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:14:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:15:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:16:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:17:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:17:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:18:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:18:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:19:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:19:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:20:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 21:20:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark Khaldun'
+01/10/2020 21:20:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 21:21:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') shutting down server (Restart: False) (Save: True)
+01/10/2020 21:21:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'save '
+01/10/2020 21:55:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 22:04:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 22:04:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+01/10/2020 22:05:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Props '
+01/10/2020 22:09:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Dex' of 0xAF7F "a greater dragon" (no account) to '100'
+01/10/2020 22:10:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Hue' of 0xAF7F "a greater dragon" (no account) to '438'
+01/10/2020 22:10:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Hue' of 0xAF7F "a greater dragon" (no account) to '0'
+01/10/2020 22:11:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HueMod' of 0xAF7F "a greater dragon" (no account) to '3'
+01/10/2020 22:11:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HueMod' of 0xAF7F "a greater dragon" (no account) to '903'
+01/10/2020 22:11:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Hue' of 0xAF7F "a greater dragon" (no account) to '0'
+01/10/2020 22:11:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'HueMod' of 0xAF7F "a greater dragon" (no account) to '-1'
+01/10/2020 22:16:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 22:16:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark BritStables'
+01/10/2020 22:16:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 22:17:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+01/10/2020 22:17:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+01/10/2020 22:18:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+01/10/2020 22:18:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0x5D95 "a grizzled man" ('PiIsExactly3')
+02/10/2020 13:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 13:49:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add bandages'
+02/10/2020 13:49:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1386, 1899, 0) in Felucca: "Bandage"
+02/10/2020 13:49:34: 192.168.50.183: Serials: 0x40036374; 
+02/10/2020 13:49:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1386, 1899, 1) in Felucca: "Bandage"
+02/10/2020 13:49:36: 192.168.50.183: Serials: 0x40036375; 
+02/10/2020 13:49:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1385, 1898, 0) in Felucca: "BoltOfCloth"
+02/10/2020 13:49:52: 192.168.50.183: Serials: 0x40036377; 
+02/10/2020 13:50:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1385, 1898, 0) in Felucca: "Scissors"
+02/10/2020 13:50:04: 192.168.50.183: Serials: 0x40036379; 
+02/10/2020 13:50:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add bless'
+02/10/2020 13:50:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1385, 1899, 0) in Felucca: "bless"
+02/10/2020 13:51:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add blessdeed'
+02/10/2020 13:51:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1385, 1899, 0) in Felucca: "ItemBlessDeed"
+02/10/2020 13:51:08: 192.168.50.183: Serials: 0x400363A1; 
+02/10/2020 13:52:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add ranger'
+02/10/2020 13:52:27: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1386, 1899, 0) in Felucca: "ranger"
+02/10/2020 13:52:27: 192.168.50.183: Serials: 0xAFFC; 
+02/10/2020 13:52:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add bandage'
+02/10/2020 13:52:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add bandages'
+02/10/2020 14:07:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add reagents'
+02/10/2020 14:07:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2510, 921, 0) in Felucca: "BagOfReagents"
+02/10/2020 14:07:34: 192.168.50.183: Serials: 0x400364D5; 
+02/10/2020 14:11:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 14:12:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 14:12:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 14:15:08: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 14:26:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add shepherds'
+02/10/2020 14:26:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2988, 640, 0) in Felucca: "ShepherdsCrook"
+02/10/2020 14:26:17: 192.168.50.183: Serials: 0x400366C4; 
+02/10/2020 14:46:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2984, 635, 0) in Felucca: "Drums"
+02/10/2020 14:46:21: 192.168.50.183: Serials: 0x400367DA; 
+02/10/2020 14:47:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2981, 601, 0) in Felucca: "LapHarp"
+02/10/2020 14:47:47: 192.168.50.183: Serials: 0x40036805; 
+02/10/2020 16:24:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:25:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:25:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:25:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:27:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 16:27:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x69D "an ettin" (no account)
+02/10/2020 16:27:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 16:27:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x3761 "an ettin" (no account)
+02/10/2020 16:27:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 16:27:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x4332 "an ettin" (no account)
+02/10/2020 16:28:01: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 16:28:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x2352 "an ettin" (no account)
+02/10/2020 16:28:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:28:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:29:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 16:29:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x4BE "a juka warrior" (no account)
+02/10/2020 16:29:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:29:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:29:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:30:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:30:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:30:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:32:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 16:33:11: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 17:40:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pickaxe'
+02/10/2020 17:40:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2600, 455, 60) in Felucca: "pickaxe"
+02/10/2020 17:40:30: 192.168.50.183: Serials: 0x40037652; 
+02/10/2020 17:40:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add bless'
+02/10/2020 17:40:40: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2600, 454, 60) in Felucca: "bless"
+02/10/2020 17:40:49: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add itemblessdeed'
+02/10/2020 17:40:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (2600, 454, 60) in Felucca: "itemblessdeed"
+02/10/2020 17:40:51: 192.168.50.183: Serials: 0x40037667; 
+02/10/2020 17:52:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+02/10/2020 18:04:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 18:11:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 18:11:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+02/10/2020 18:11:23: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0xB147 "Flint" ('PiIsExactly3')
+02/10/2020 18:13:52: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pickaxe'
+02/10/2020 18:13:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5205, 3917, 21) in Felucca: "pickaxe"
+02/10/2020 18:13:54: 192.168.50.183: Serials: 0x4003786B; 
+02/10/2020 18:14:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pickaxe'
+02/10/2020 18:14:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5205, 3916, 18) in Felucca: "pickaxe"
+02/10/2020 18:14:06: 192.168.50.183: Serials: 0x4003786F; 
+02/10/2020 18:28:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pick'
+02/10/2020 18:28:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5173, 3884, 0) in Felucca: "Pickaxe"
+02/10/2020 18:28:55: 192.168.50.183: Serials: 0x40037A00; 
+02/10/2020 18:28:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5172, 3884, 2) in Felucca: "Pickaxe"
+02/10/2020 18:28:56: 192.168.50.183: Serials: 0x40037A01; 
+02/10/2020 18:28:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5173, 3884, 0) in Felucca: "Pickaxe"
+02/10/2020 18:28:57: 192.168.50.183: Serials: 0x40037A02; 
+02/10/2020 18:28:57: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5172, 3884, 2) in Felucca: "Pickaxe"
+02/10/2020 18:28:57: 192.168.50.183: Serials: 0x40037A03; 
+02/10/2020 18:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5173, 3884, 0) in Felucca: "Pickaxe"
+02/10/2020 18:28:58: 192.168.50.183: Serials: 0x40037A04; 
+02/10/2020 18:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5173, 3885, -1) in Felucca: "Pickaxe"
+02/10/2020 18:28:58: 192.168.50.183: Serials: 0x40037A05; 
+02/10/2020 18:49:49: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark GoldOreNDel'
+02/10/2020 19:07:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add salvagebag'
+02/10/2020 19:07:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5145, 3849, 0) in Felucca: "salvagebag"
+02/10/2020 19:07:14: 192.168.50.183: Serials: 0x40037E2C; 
+02/10/2020 19:07:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 19:10:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 19:12:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 19:12:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+02/10/2020 19:12:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0xB147 "Flint" ('PiIsExactly3')
+02/10/2020 19:13:51: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pickaxe'
+02/10/2020 19:13:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3131, -3) in Felucca: "pickaxe"
+02/10/2020 19:13:53: 192.168.50.183: Serials: 0x40037EAF; 
+02/10/2020 19:13:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pickaxe 5'
+02/10/2020 19:14:00: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3130, -3) in Felucca: "pickaxe" "5"
+02/10/2020 19:14:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add '
+02/10/2020 19:15:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'Blessed' of 0xB147 "Flint" ('PiIsExactly3') to 'True'
+02/10/2020 19:15:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pick'
+02/10/2020 19:15:53: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3132, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:53: 192.168.50.183: Serials: 0x40037EBA; 
+02/10/2020 19:15:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3132, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:54: 192.168.50.183: Serials: 0x40037ECF; 
+02/10/2020 19:15:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3132, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:54: 192.168.50.183: Serials: 0x40037ED0; 
+02/10/2020 19:15:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3131, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:55: 192.168.50.183: Serials: 0x40037ED1; 
+02/10/2020 19:15:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3131, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:55: 192.168.50.183: Serials: 0x40037ED2; 
+02/10/2020 19:15:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3130, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:55: 192.168.50.183: Serials: 0x40037ED3; 
+02/10/2020 19:15:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5384, 3130, -3) in Felucca: "Pickaxe"
+02/10/2020 19:15:55: 192.168.50.183: Serials: 0x40037ED4; 
+02/10/2020 19:17:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 19:17:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x2892 "an ophidian warrior" (no account)
+02/10/2020 19:17:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 19:17:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x3315 "an ophidian matriarch" (no account)
+02/10/2020 19:17:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+02/10/2020 19:17:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x3EB8 "an ophidian knight-errant" (no account)
+02/10/2020 19:18:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add '
+02/10/2020 19:18:10: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add pack'
+02/10/2020 19:18:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5392, 3092, -2) in Felucca: "PackHorse"
+02/10/2020 19:18:15: 192.168.50.183: Serials: 0xB27C; 
+02/10/2020 19:18:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+02/10/2020 19:20:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Props '
+02/10/2020 19:21:30: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'ControlMaster' of 0xB27C "a pack horse" (no account) to '0xB147 "Flint"'
+02/10/2020 19:22:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 19:22:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'get Flint'
+02/10/2020 19:22:59: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'get '
+02/10/2020 19:23:07: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 19:24:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add ingot'
+02/10/2020 19:24:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5728, 3210, -4) in Felucca: "IronIngot"
+02/10/2020 19:24:17: 192.168.50.183: Serials: 0x40037F4C; 
+02/10/2020 19:24:35: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'get ironingot 250'
+02/10/2020 19:24:44: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+02/10/2020 19:25:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add ironingot number 250'
+02/10/2020 19:25:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5725, 3208, -5) in Felucca: "ironingot" "number" "250"
+02/10/2020 19:25:37: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add ironingot int32 250'
+02/10/2020 19:25:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5727, 3209, -4) in Felucca: "ironingot" "int32" "250"
+02/10/2020 19:26:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add ironingot amount 250'
+02/10/2020 19:26:18: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5726, 3209, -5) in Felucca: "ironingot" "amount" "250"
+02/10/2020 19:27:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'AddMenu iron'
+02/10/2020 19:27:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5728, 3210, -3) in Felucca: "IronIngot"
+02/10/2020 19:27:46: 192.168.50.183: Serials: 0x40037F78; 
+02/10/2020 19:35:07: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'help add'
+02/10/2020 19:35:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add ironingot multi 250'
+02/10/2020 19:35:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5726, 3209, -5) in Felucca: "ironingot" "multi" "250"
+02/10/2020 19:37:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add help'
+02/10/2020 19:42:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add recall'
+02/10/2020 19:42:42: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (5731, 3206, -6) in Felucca: "RecallScroll"
+02/10/2020 19:42:42: 192.168.50.183: Serials: 0x4003808E; 
+02/10/2020 19:59:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 19:59:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark HiddenValley'
+02/10/2020 20:01:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'XmlShow '
+02/10/2020 20:01:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'XmlShow '
+02/10/2020 20:02:04: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'XmlHide '
+02/10/2020 20:10:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 20:22:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add chest'
+02/10/2020 20:22:14: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1687, 2980, 0) in Felucca: "FillableMetalChest"
+02/10/2020 20:22:14: 192.168.50.183: Serials: 0x40038285; 
+02/10/2020 20:22:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1688, 2980, 0) in Felucca: "MetalChest"
+02/10/2020 20:22:46: 192.168.50.183: Serials: 0x40038289; 
+02/10/2020 20:31:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+02/10/2020 20:31:48: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark SBBank'
+02/10/2020 20:31:55: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 20:32:20: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add runebook'
+02/10/2020 20:32:22: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1687, 2973, 7) in Felucca: "runebook"
+02/10/2020 20:32:22: 192.168.50.183: Serials: 0x4003834F; 
+02/10/2020 20:32:29: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add runebook'
+02/10/2020 20:32:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1687, 2972, 7) in Felucca: "runebook"
+02/10/2020 20:32:31: 192.168.50.183: Serials: 0x40038350; 
+02/10/2020 20:38:19: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 20:38:39: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property '[Tinkering: 40].Base' of 0xB147 "Flint" ('PiIsExactly3') to '40'
+02/10/2020 20:39:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add tinkerstools'
+02/10/2020 20:39:06: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1687, 2973, 7) in Felucca: "tinkerstools"
+02/10/2020 20:39:06: 192.168.50.183: Serials: 0x4003839C; 
+02/10/2020 20:40:15: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'getfollowers '
+02/10/2020 20:40:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') getting all followers of 0xB147 "Flint" ('PiIsExactly3')
+02/10/2020 20:40:25: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+02/10/2020 20:40:26: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0xB27C "a pack horse" (no account)
+02/10/2020 20:47:17: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+02/10/2020 20:47:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'delete '
+02/10/2020 20:47:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') deleting 0x40038285 (FillableMetalChest)
+03/10/2020 18:59:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add BBControlBox Whipmaster'
+03/10/2020 18:59:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1684, 2979, 0) in Felucca: "BBControlBox" "Whipmaster"
+03/10/2020 18:59:36: 192.168.50.183: Serials: 0x400260B8; 
+03/10/2020 19:02:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+03/10/2020 19:19:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:19:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:19:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:23:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+03/10/2020 19:24:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:27:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4037 580 1'
+03/10/2020 19:27:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4029 570 1'
+03/10/2020 19:27:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (830, 1096, -30) in Ilshenar: "BBTravel" "Whipmaster" "Felucca" "4029" "570" "1"
+03/10/2020 19:27:43: 192.168.50.183: Serials: 0x4002E7D8; 
+03/10/2020 19:28:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 1938 880 0 True'
+03/10/2020 19:28:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (4033, 572, 0) in Felucca: "BBTravel" "Whipmaster" "Felucca" "1938" "880" "0" "True"
+03/10/2020 19:28:03: 192.168.50.183: Serials: 0x4002E7E3; 
+03/10/2020 19:28:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4012 540 1 True'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:31:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (566, 2106, 0) in Felucca: "BBTravel" "Whipmaster" "Felucca" "4012" "540" "1" "True"
+03/10/2020 19:31:33: 192.168.50.183: Serials: 0x4002E8AD; 
+03/10/2020 19:32:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+03/10/2020 19:34:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:35:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark Shame'
+03/10/2020 19:35:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+03/10/2020 19:54:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+03/10/2020 20:05:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x2B0D "a troll" (no account)
+03/10/2020 20:05:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+03/10/2020 20:05:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x65B "a reaper" (no account)
+03/10/2020 20:05:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x36A6 "Nomgulg" (no account)
+03/10/2020 20:16:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 20:17:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '

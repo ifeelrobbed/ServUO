@@ -1,0 +1,52 @@
+##############################
+Log started on 03/10/2020 18:57:40
+
+03/10/2020 18:59:32: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'Add BBControlBox Whipmaster'
+03/10/2020 18:59:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (1684, 2979, 0) in Felucca: "BBControlBox" "Whipmaster"
+03/10/2020 18:59:36: 192.168.50.183: Serials: 0x400260B8; 
+03/10/2020 19:02:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+03/10/2020 19:19:24: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:19:38: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:19:50: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:23:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'helpinfo '
+03/10/2020 19:24:16: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:26:34: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:27:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4037 580 1'
+03/10/2020 19:27:41: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4029 570 1'
+03/10/2020 19:27:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (830, 1096, -30) in Ilshenar: "BBTravel" "Whipmaster" "Felucca" "4029" "570" "1"
+03/10/2020 19:27:43: 192.168.50.183: Serials: 0x4002E7D8; 
+03/10/2020 19:28:02: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 1938 880 0 True'
+03/10/2020 19:28:03: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (4033, 572, 0) in Felucca: "BBTravel" "Whipmaster" "Felucca" "1938" "880" "0" "True"
+03/10/2020 19:28:03: 192.168.50.183: Serials: 0x4002E7E3; 
+03/10/2020 19:28:13: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'add BBTravel Whipmaster Felucca 4012 540 1 True'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:28:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'map' of 0x3C "Whipmaster" ('mteksoldier') to 'Felucca'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'x' of 0x3C "Whipmaster" ('mteksoldier') to '570'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'y' of 0x3C "Whipmaster" ('mteksoldier') to '2114'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') set property 'z' of 0x3C "Whipmaster" ('mteksoldier') to '27'
+03/10/2020 19:28:58: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'self set map Felucca x 570 y 2114 z 27'
+03/10/2020 19:31:33: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') building at (566, 2106, 0) in Felucca: "BBTravel" "Whipmaster" "Felucca" "4012" "540" "1" "True"
+03/10/2020 19:31:33: 192.168.50.183: Serials: 0x4002E8AD; 
+03/10/2020 19:32:09: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'teleport '
+03/10/2020 19:34:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 19:35:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'mark Shame'
+03/10/2020 19:35:43: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '
+03/10/2020 19:54:36: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+03/10/2020 20:05:05: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:12: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:28: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x2B0D "a troll" (no account)
+03/10/2020 20:05:31: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') resurrecting 0x7990 "a merry man" ('PiIsExactly3')
+03/10/2020 20:05:45: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:46: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x65B "a reaper" (no account)
+03/10/2020 20:05:54: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'kill '
+03/10/2020 20:05:56: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') killing 0x36A6 "Nomgulg" (no account)
+03/10/2020 20:16:47: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'go '
+03/10/2020 20:17:21: 192.168.50.183: Owner 0x3C "Whipmaster" ('mteksoldier') used command 'admin '

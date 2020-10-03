@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sh>
+	<ss t="2020-09-30T05:23:34.741083Z">
+		<rp n="General Stats" w="200">
+			<rc w="50%" a="left" />
+			<rc w="50%" a="left" />
+			<ri>
+				<iv v="NPCs" />
+				<iv v="43196" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Players" />
+				<iv v="2" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Clients" />
+				<iv v="1" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Accounts" />
+				<iv v="2" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Items" />
+				<iv v="208389" f="N0" />
+			</ri>
+		</rp>
+		<pc n="Stat Distribution" f="graphs_strdexint_distrib" p="true">
+			<ci n="Strength" v="0" />
+			<ci n="Dexterity" v="0" />
+			<ci n="Intelligence" v="0" />
+		</pc>
+		<pc n="GM Skill Distribution" f="graphs_skill_distrib" p="true">
+			<ci n="Meditation" v="1" />
+			<ci n="Evaluating Intelligence" v="1" />
+			<ci n="Alchemy" v="0" />
+			<ci n="Snooping" v="0" />
+			<ci n="Musicianship" v="0" />
+			<ci n="Poisoning" v="0" />
+			<ci n="Archery" v="0" />
+			<ci n="Spirit Speak" v="0" />
+			<ci n="Stealing" v="0" />
+			<ci n="Tailoring" v="0" />
+			<ci n="Animal Taming" v="0" />
+			<ci n="Taste Identification" v="0" />
+			<ci n="Other" v="0" />
+		</pc>
+		<rp n="Skill Report" w="300">
+			<rc w="70%" a="left" n="Name" />
+			<rc w="30%" a="center" n="GMs" />
+			<ri>
+				<iv v="Meditation" />
+				<iv v="1" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Evaluating Intelligence" />
+				<iv v="1" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Alchemy" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Snooping" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Musicianship" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Poisoning" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Archery" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Spirit Speak" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Stealing" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Tailoring" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Animal Taming" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Taste Identification" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Tinkering" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Tracking" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Veterinary" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Swordsmanship" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Mace Fighting" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Fencing" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Wrestling" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Lumberjacking" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Mining" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Stealth" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Remove Trap" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Necromancy" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Tactics" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Resisting Spells" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Magery" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Lockpicking" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Anatomy" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Animal Lore" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Item Identification" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Arms Lore" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Parrying" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Begging" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Blacksmithy" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Bowcraft/Fletching" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Peacemaking" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Camping" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Focus" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Carpentry" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Cooking" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Detecting Hidden" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Discordance" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Healing" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Fishing" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Forensic Evaluation" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Herding" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Hiding" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Provocation" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Inscription" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Cartography" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Chivalry" />
+				<iv v="0" f="N0" />
+			</ri>
+		</rp>
+		<pc n="Faction Membership" f="graphs_faction_membership" p="true">
+			<ci n="Minax" v="0" />
+			<ci n="Council of Mages" v="0" />
+			<ci n="Shadowlords" v="0" />
+			<ci n="True Britannians" v="0" />
+		</pc>
+		<rp n="Faction Statistics" w="80%">
+			<rc w="20%" a="center" n="Name" />
+			<rc w="20%" a="center" n="Commander" />
+			<rc w="15%" a="center" n="Members" />
+			<rc w="15%" a="center" n="Merchants" />
+			<rc w="15%" a="center" n="Kill Points" />
+			<rc w="15%" a="center" n="Silver" />
+			<ri>
+				<iv v="Minax" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Council of Mages" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="Shadowlords" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+			</ri>
+			<ri>
+				<iv v="True Britannians" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+				<iv v="0" f="N0" />
+			</ri>
+		</rp>
+		<rp n="Faction Towns" w="80%">
+			<rc w="20%" a="center" n="Name" />
+			<rc w="20%" a="center" n="Owner" />
+			<rc w="17%" a="center" n="Sheriff" />
+			<rc w="17%" a="center" n="Finance Minister" />
+			<rc w="13%" a="center" n="Silver" />
+			<rc w="13%" a="center" n="Prices" />
+			<ri>
+				<iv v="Skara Brae" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Magincia" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Vesper" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Minoc" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Trinsic" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Moonglow" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Yew" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+			<ri>
+				<iv v="Britain" />
+				<iv v="Neutral" />
+				<iv v="" />
+				<iv v="" />
+				<iv v="0" f="N0" />
+				<iv v="Normal" />
+			</ri>
+		</rp>
+		<rp n="Faction Town Sigils" w="50%">
+			<rc w="35%" a="center" n="Town" />
+			<rc w="35%" a="center" n="Controller" />
+			<rc w="30%" a="center" n="Capturable" />
+		</rp>
+		<rp n="Faction Leaderboard" w="60%">
+			<rc w="28%" a="center" n="Name" />
+			<rc w="28%" a="center" n="Faction" />
+			<rc w="28%" a="center" n="Office" />
+			<rc w="16%" a="center" n="Kill Points" />
+		</rp>
+	</ss>
+</sh>
