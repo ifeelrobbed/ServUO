@@ -264,10 +264,10 @@ namespace Server.Misc
 
             gc += (skill.Cap - skill.Base) / skill.Cap;
 
-            gc /= 0.75;
+            gc /= 1.00;
 
             gc += (1.0 - chance) * (success ? 0.5 : (Core.AOS ? 0.0 : 0.2));
-            gc /= 0.75;
+            gc /= 1.00;
 
             gc *= skill.Info.GainFactor;
 

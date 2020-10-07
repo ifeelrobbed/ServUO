@@ -380,6 +380,8 @@ namespace Server.Items
 				// Holy City
 			});
 
+		public static readonly PMList[] T2ALists = {Felucca};
+		public static readonly PMList[] T2AListsYoung = {Felucca};
 		public static readonly PMList[] UORLists = {Trammel, Felucca};
 		public static readonly PMList[] UORListsYoung = {Trammel};
 		public static readonly PMList[] LBRLists = {Trammel, Felucca, Ilshenar};
@@ -507,72 +509,76 @@ namespace Server.Items
 
 			PMList[] checkLists;
 
-			if (mobile.Player)
-			{
-				if (mobile.IsStaff())
-				{
-					var flags = mobile.NetState == null ? ClientFlags.None : mobile.NetState.Flags;
+            if (mobile.Player)
+            {
+                if (mobile.IsStaff())
+                {
+                    var flags = mobile.NetState == null ? ClientFlags.None : mobile.NetState.Flags;
 
-					if (Core.SA && (flags & ClientFlags.TerMur) != 0)
-					{
-						checkLists = PMList.SALists;
-					}
-					else if (Core.SE && (flags & ClientFlags.Tokuno) != 0)
-					{
-						checkLists = PMList.SELists;
-					}
-					else if (Core.AOS && (flags & ClientFlags.Malas) != 0)
-					{
-						checkLists = PMList.AOSLists;
-					}
-					else if ((flags & ClientFlags.Ilshenar) != 0)
-					{
-						checkLists = PMList.LBRLists;
-					}
-					else
-					{
-						checkLists = PMList.UORLists;
-					}
-				}
-				else if (Sigil.ExistsOn(mobile))
-				{
-					checkLists = PMList.SigilLists;
-				}
+                    if (Core.SA && (flags & ClientFlags.TerMur) != 0)
+                    {
+                        checkLists = PMList.SALists;
+                    }
+                    else if (Core.SE && (flags & ClientFlags.Tokuno) != 0)
+                    {
+                        checkLists = PMList.SELists;
+                    }
+                    else if (Core.AOS && (flags & ClientFlags.Malas) != 0)
+                    {
+                        checkLists = PMList.AOSLists;
+                    }
+                    else if (Core.UOTD && (flags & ClientFlags.Ilshenar) != 0)
+                    {
+                        checkLists = PMList.LBRLists;
+                    }
+                    else if (Core.UOR)
+                    {
+                        checkLists = PMList.UORLists;
+                    }
+                    else
+                    {
+                        checkLists = PMList.T2ALists;
+                    }
+                }
+                else if (Sigil.ExistsOn(mobile))
+                {
+                    checkLists = PMList.SigilLists;
+                }
                 else if (SpellHelper.RestrictRedTravel && mobile.Murderer && !Siege.SiegeShard)
-				{
-					checkLists = PMList.RedLists;
-				}
-				else
-				{
-					var flags = mobile.NetState == null ? ClientFlags.None : mobile.NetState.Flags;
-					var young = mobile is PlayerMobile && ((PlayerMobile)mobile).Young;
+                {
+                    checkLists = PMList.RedLists;
+                }
+                else
+                {
+                    var flags = mobile.NetState == null ? ClientFlags.None : mobile.NetState.Flags;
+                    var young = mobile is PlayerMobile && ((PlayerMobile)mobile).Young;
 
-					if (Core.SA && (flags & ClientFlags.TerMur) != 0)
-					{
-						checkLists = young ? PMList.SAListsYoung : PMList.SALists;
-					}
-					else if (Core.SE && (flags & ClientFlags.Tokuno) != 0)
-					{
-						checkLists = young ? PMList.SEListsYoung : PMList.SELists;
-					}
-					else if (Core.AOS && (flags & ClientFlags.Malas) != 0)
-					{
-						checkLists = young ? PMList.AOSListsYoung : PMList.AOSLists;
-					}
-					else if ((flags & ClientFlags.Ilshenar) != 0)
-					{
-						checkLists = young ? PMList.LBRListsYoung : PMList.LBRLists;
-					}
-					else
-					{
-						checkLists = young ? PMList.UORListsYoung : PMList.UORLists;
-					}
-				}
-			}
-			else
-			{
-				checkLists = PMList.SELists;
-			}
+                    if (Core.SA && (flags & ClientFlags.TerMur) != 0)
+                    {
+                        checkLists = young ? PMList.SAListsYoung : PMList.SALists;
+                    }
+                    else if (Core.SE && (flags & ClientFlags.Tokuno) != 0)
+                    {
+                        checkLists = young ? PMList.SEListsYoung : PMList.SELists;
+                    }
+                    else if (Core.AOS && (flags & ClientFlags.Malas) != 0)
+                    {
+                        checkLists = young ? PMList.AOSListsYoung : PMList.AOSLists;
+                    }
+                    else if (Core.UOTD && (flags & ClientFlags.Ilshenar) != 0)
+                    {
+                        checkLists = young ? PMList.LBRListsYoung : PMList.LBRLists;
+                    }
+                    else
+                    {
+                        checkLists = young ? PMList.UORListsYoung : PMList.UORLists;
+                    }
+                }
+            }
+            else
+            {
+                checkLists = PMList.SELists;
+            }
 
 			m_Lists = new PMList[checkLists.Length];
 
