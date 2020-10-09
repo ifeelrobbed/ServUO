@@ -12,7 +12,8 @@ namespace Server.Misc
 		private static readonly string[] m_Messages =
 		{
 			"Welcome to " + ServerList.ServerName + ".", //
-			"Please enjoy your stay!"
+			"Note: I'm trying to figure out why Trammel is showing up in the Moongate list again.", //
+			"Until then, please don't use it to go to Trammel!"
 		};
 
 		private static readonly string[] m_TCMessages =
