@@ -569,10 +569,14 @@ namespace Server.Items
                     {
                         checkLists = young ? PMList.LBRListsYoung : PMList.LBRLists;
                     }
-                    else
+                    else if (Core.UOR)
                     {
                         checkLists = young ? PMList.UORListsYoung : PMList.UORLists;
                     }
+		    else
+		    {
+			checkLists = young ? PMList.T2AListsYoung : PMList.T2ALists;
+		    }
                 }
             }
             else
