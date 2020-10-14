@@ -12,8 +12,8 @@ namespace Server.Misc
 		private static readonly string[] m_Messages =
 		{
 			"Welcome to " + ServerList.ServerName + ".", //
-			"Note: I'm trying to figure out why Trammel is showing up in the Moongate list again.", //
-			"Until then, please don't use it to go to Trammel!"
+			"Note: The following skills, uh, shouldn't exist yet. I wouldn't advise trying to train them.", //
+			"Necromancy, Ninjistsu, Bushido, Spellweaving, Mysticism"
 		};
 
 		private static readonly string[] m_TCMessages =
