@@ -26,6 +26,7 @@ namespace Server.Customs.Invasion_System
 			new MonsterTownSpawnEntry( typeof( AncientLich ),					50 )
 		};
 
+/*	Default Settings
 		public static MonsterTownSpawnEntry[] Humanoid = new MonsterTownSpawnEntry[]
 		{
 			//Monster														//Amount
@@ -40,6 +41,23 @@ namespace Server.Customs.Invasion_System
 			new MonsterTownSpawnEntry( typeof( Troll ),							55 ),
 			new MonsterTownSpawnEntry( typeof( Cyclops ),						55 ),
 			new MonsterTownSpawnEntry( typeof( Titan ),							40 )
+		};
+*/
+
+		public static MonsterTownSpawnEntry[] Humanoid = new MonsterTownSpawnEntry[]
+		{
+			//Monster														//Amount
+			new MonsterTownSpawnEntry( typeof( Brigand ),						6 ),
+			new MonsterTownSpawnEntry( typeof( Executioner ),					3 ),
+			new MonsterTownSpawnEntry( typeof( EvilMage ),						7 ),
+			new MonsterTownSpawnEntry( typeof( EvilMageLord ),					4 ),
+			new MonsterTownSpawnEntry( typeof( Ettin ),							4 ),
+			new MonsterTownSpawnEntry( typeof( Ogre ),							4 ),
+			new MonsterTownSpawnEntry( typeof( OgreLord ),						4 ),
+			new MonsterTownSpawnEntry( typeof( ArcticOgreLord ),				4 ),
+			new MonsterTownSpawnEntry( typeof( Troll ),							5 ),
+			new MonsterTownSpawnEntry( typeof( Cyclops ),						5 ),
+			new MonsterTownSpawnEntry( typeof( Titan ),							4 )
 		};
 
 		public static MonsterTownSpawnEntry[] OrcsandRatmen = new MonsterTownSpawnEntry[]
