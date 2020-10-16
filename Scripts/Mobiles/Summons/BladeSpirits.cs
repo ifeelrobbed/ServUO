@@ -148,6 +148,23 @@ namespace Server.Mobiles
             base.OnThink();
         }
 
+        public override bool IsEnemy(Mobile m)
+        {
+            // Faction Opposed Players/Pets are my enemies
+            if (GetFactionAllegiance(m) == BaseCreature.Allegiance.Enemy)
+            {
+                return true;
+            }
+
+            // Ethic Opposed Players/Pets are my enemies
+            if (GetEthicAllegiance(m) == BaseCreature.Allegiance.Enemy)
+            {
+                return true;
+            }
+
+            return base.IsEnemy(m);
+        }
+
         public override void Serialize(GenericWriter writer)
         {
             base.Serialize(writer);
