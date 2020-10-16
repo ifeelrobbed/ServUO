@@ -2912,7 +2912,8 @@ namespace Server.Mobiles
 						if (m_Mobile.Summoned && m_Mobile.SummonMaster != null)
 						{
 							// If this is a summon, it can't target its controller.
-							if (m == m_Mobile.SummonMaster)
+						//	if (m == m_Mobile.SummonMaster)
+							if (m == m_Mobile.SummonMaster && !(m_Mobile is EnergyVortex || m_Mobile is BladeSpirits))
 								continue;
 
                             // It also must abide by harmful spell rules if the master is a player.
