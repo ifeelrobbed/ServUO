@@ -99,6 +99,24 @@ namespace Server.Mobiles
                 return Poison.Lethal;
             }
         }
+        public override Poison HitPoison
+        {
+            get
+            {
+                return (0.8 >= Utility.RandomDouble() ? Poison.Greater : Poison.Deadly);
+            }
+        }
+        public override double HitPoisonChance
+        {
+            get
+            {
+                return 0.15;
+            }
+        }
+        public override bool IsEnemy(Mobile m)
+        {
+            return true;
+        }
         public override double GetFightModeRanking(Mobile m, FightMode acqType, bool bPlayerOnly)
         {
             return (m.Str + m.Skills[SkillName.Tactics].Value) / Math.Max(this.GetDistanceToSqrt(m), 1.0);
@@ -146,23 +164,6 @@ namespace Server.Mobiles
             }
 
             base.OnThink();
-        }
-
-        public override bool IsEnemy(Mobile m)
-        {
-            // Faction Opposed Players/Pets are my enemies
-            if (GetFactionAllegiance(m) == BaseCreature.Allegiance.Enemy)
-            {
-                return true;
-            }
-
-            // Ethic Opposed Players/Pets are my enemies
-            if (GetEthicAllegiance(m) == BaseCreature.Allegiance.Enemy)
-            {
-                return true;
-            }
-
-            return base.IsEnemy(m);
         }
 
         public override void Serialize(GenericWriter writer)
