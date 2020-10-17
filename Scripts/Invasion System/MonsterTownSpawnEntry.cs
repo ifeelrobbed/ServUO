@@ -6,7 +6,8 @@ namespace Server.Customs.Invasion_System
 	public class MonsterTownSpawnEntry
 	{
 		#region MonsterSpawnEntries
-		
+
+	/* Default Settings
 		public static MonsterTownSpawnEntry[] Undead = new MonsterTownSpawnEntry[]
 		{
 			//Monster													//Amount
@@ -24,6 +25,25 @@ namespace Server.Customs.Invasion_System
 			new MonsterTownSpawnEntry( typeof( Spectre ),						30 ),
 			new MonsterTownSpawnEntry( typeof( Shade ),							30 ),
 			new MonsterTownSpawnEntry( typeof( AncientLich ),					50 )
+		};
+	*/
+		public static MonsterTownSpawnEntry[] Undead = new MonsterTownSpawnEntry[]
+		{
+			//Monster													//Amount
+			new MonsterTownSpawnEntry( typeof( Zombie ),						80 ),
+			new MonsterTownSpawnEntry( typeof( Skeleton ),						30 ),
+			new MonsterTownSpawnEntry( typeof( SkeletalMage ),					15 ),
+			new MonsterTownSpawnEntry( typeof( BoneKnight ),					20 ),
+			new MonsterTownSpawnEntry( typeof( SkeletalKnight ),				20 ),
+			new MonsterTownSpawnEntry( typeof( Lich ),							5 ),
+			new MonsterTownSpawnEntry( typeof( Ghoul ),							10 ),
+			new MonsterTownSpawnEntry( typeof( BoneMagi ),						5 ),
+			new MonsterTownSpawnEntry( typeof( Wraith ),						5 ),
+			new MonsterTownSpawnEntry( typeof( RottingCorpse ),					35 ),
+			new MonsterTownSpawnEntry( typeof( LichLord ),						1 ),
+			new MonsterTownSpawnEntry( typeof( Spectre ),						5 ),
+			new MonsterTownSpawnEntry( typeof( Shade ),							5 ),
+			new MonsterTownSpawnEntry( typeof( AncientLich ),					1 )
 		};
 
 /*	Default Settings
@@ -87,7 +107,7 @@ namespace Server.Customs.Invasion_System
 			new MonsterTownSpawnEntry( typeof( PoisonElemental ),				35 ),
 			new MonsterTownSpawnEntry( typeof( BloodElemental ),				35 )
 		};
-
+	/* Default Values
 		public static MonsterTownSpawnEntry[] OreElementals = new MonsterTownSpawnEntry[]
 		{
 			//Monster														//Amount
@@ -99,6 +119,19 @@ namespace Server.Customs.Invasion_System
 			new MonsterTownSpawnEntry( typeof( AgapiteElemental ),				45 ),
 			new MonsterTownSpawnEntry( typeof( VeriteElemental ),				40 ),
 			new MonsterTownSpawnEntry( typeof( ValoriteElemental ),				40 )
+		};
+	*/
+		public static MonsterTownSpawnEntry[] OreElementals = new MonsterTownSpawnEntry[]
+		{
+			//Monster														//Amount
+			new MonsterTownSpawnEntry( typeof( DullCopperElemental ),			9 ),
+			new MonsterTownSpawnEntry( typeof( CopperElemental ),				8 ),
+			new MonsterTownSpawnEntry( typeof( BronzeElemental ),				5 ),
+			new MonsterTownSpawnEntry( typeof( ShadowIronElemental ),			6 ),
+			new MonsterTownSpawnEntry( typeof( GoldenElemental ),				5 ),
+			new MonsterTownSpawnEntry( typeof( AgapiteElemental ),				4 ),
+			new MonsterTownSpawnEntry( typeof( VeriteElemental ),				4 ),
+			new MonsterTownSpawnEntry( typeof( ValoriteElemental ),				4 )
 		};
 
 		public static MonsterTownSpawnEntry[] Ophidian = new MonsterTownSpawnEntry[]
