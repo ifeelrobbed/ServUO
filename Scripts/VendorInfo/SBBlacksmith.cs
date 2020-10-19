@@ -31,7 +31,7 @@ namespace Server.Mobiles
         { 
             public InternalBuyInfo() 
             {
-                this.Add(new GenericBuyInfo(typeof(RepairDeedSmith), 5, 20, 0x14F0, 0x1BC, false));
+                this.Add(new GenericBuyInfo(typeof(RepairDeed), 20, 16, 0x14F0, 0x1BC, new object[] { RepairSkillType.Smithing, 80}, false));;
                 this.Add(new GenericBuyInfo(typeof(IronIngot), 5, 16, 0x1BF2, 0, true));
                 this.Add(new GenericBuyInfo(typeof(Tongs), 13, 14, 0xFBB, 0)); 
  

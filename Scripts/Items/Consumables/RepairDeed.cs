@@ -227,21 +227,6 @@ namespace Server.Items
             }
         }        
     }
-
-	public class RepairDeedSmith : RepairDeed
-	{
-		[Constructable]
-		public RepairDeedSmith()
-			: this(RepairSkillType.Smithing, 80.0, null, true)
-		{
-		}
-
-        public RepairDeedSmith(RepairSkillType skill, double level, Mobile crafter, bool normalizeLevel)
-            : base(0x14F0)
-        {
-        }
-	}
-
     public class RepairSkillInfo
     {
         private static readonly RepairSkillInfo[] m_Table = new RepairSkillInfo[]
