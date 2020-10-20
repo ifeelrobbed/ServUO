@@ -31,7 +31,6 @@ namespace Server.Mobiles
         { 
             public InternalBuyInfo() 
             {
-                this.Add(new GenericBuyInfo(typeof(RepairDeed), 20, 16, 0x14F0, 0x1BC, new object[] { RepairSkillType.Smithing, 80}, false));;
                 this.Add(new GenericBuyInfo(typeof(IronIngot), 5, 16, 0x1BF2, 0, true));
                 this.Add(new GenericBuyInfo(typeof(Tongs), 13, 14, 0xFBB, 0)); 
  
@@ -129,6 +128,8 @@ namespace Server.Mobiles
                 }
 
                 Add(new GenericBuyInfo("1154005", typeof(MalleableAlloy), 50, 500, 7139, 2949, true));
+
+		this.Add(new GenericBuyInfo(typeof(RepairDeed), 20, 16, 0x14F0, 0x1BC, new object[] { RepairSkillType.Smithing, 80}, false));
             }
         }
 
