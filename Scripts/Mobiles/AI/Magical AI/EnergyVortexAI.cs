@@ -1,5 +1,7 @@
 #region References
 using Server.Spells;
+using Server.Spells.Fourth;
+using Server.Spells.Second;
 #endregion
 
 namespace Server.Mobiles
@@ -12,6 +14,8 @@ namespace Server.Mobiles
 		
 		public override Spell ChooseSpell(IDamageable c)
 		{
+			var select = 1;
+			
 			if (c == null || !c.Alive)
 				return null;
 
@@ -21,8 +25,10 @@ namespace Server.Mobiles
 			{
 				case 0:
 					spell = new HarmSpell(m_Mobile, null);
+					break;
 				case 1:
 					spell = new CurseSpell(m_Mobile, null);
+					break;
 			}
 			
 			return spell;
