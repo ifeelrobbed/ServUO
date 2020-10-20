@@ -13,7 +13,7 @@ namespace Server.Mobiles
 
         [Constructable]
         public EnergyVortex(bool summoned)
-            : base(AIType.AI_Melee, FightMode.Closest, 10, 1, 0.2, 0.4)
+            : base(AIType.AI_EnergyVortex, FightMode.Closest, 10, 1, 0.2, 0.4)
         {
             Name = "an energy vortex";
 
@@ -36,7 +36,6 @@ namespace Server.Mobiles
 
             SetHits((Core.SE && !weak) ? 140 : 70);
             SetStam(250);
-            SetMana(0);
 
             SetDamage(weak ? 10 : 14, weak ? 13 : 17);
 
@@ -49,6 +48,10 @@ namespace Server.Mobiles
             SetResistance(ResistanceType.Poison, 40, 50);
             SetResistance(ResistanceType.Energy, 90, 100);
 
+
+            SetSkill(SkillName.EvalInt, 30.1, 40.0);
+            SetSkill(SkillName.Magery, 30.1, 40.0);
+            SetSkill(SkillName.Meditation, 85.1, 95.0);
             SetSkill(SkillName.MagicResist, 99.9);
             SetSkill(SkillName.Tactics, 100.0);
             SetSkill(SkillName.Wrestling, 120.0);

@@ -608,6 +608,7 @@ namespace Server.Mobiles
             switch (AI)
             {
                 case AIType.AI_Mage: SetMagicalAbility(MagicalAbility.Magery); break;
+                case AIType.AI_EnergyVortex: SetMagicalAbility(MagicalAbility.Magery); break;
                 case AIType.AI_NecroMage: SetMagicalAbility(!Controlled ? MagicalAbility.Necromancy : MagicalAbility.Necromage); break;
                 case AIType.AI_Necro: SetMagicalAbility(MagicalAbility.Necromancy); break;
                 case AIType.AI_Spellweaving: SetMagicalAbility(MagicalAbility.Spellweaving); break;
@@ -3413,6 +3414,9 @@ namespace Server.Mobiles
                 case AIType.AI_Necro:
                     m_AI = new NecroAI(this);
                     break;
+                case AIType.AI_EnergyVortex:
+                    m_AI = new EnergyVortexAI(this);
+                    break;
             }
         }
 
@@ -5217,7 +5221,7 @@ namespace Server.Mobiles
             if (!Controlled && name == SkillName.Magery && 
                 (AbilityProfile == null || !AbilityProfile.HasAbility(MagicalAbility.Magery)) && 
                 Skills[SkillName.Magery].Base > 0 && 
-                (AI == AIType.AI_Mage || AI == AIType.AI_Necro || AI == AIType.AI_NecroMage || AI == AIType.AI_Mystic || AI == AIType.AI_Spellweaving))
+                (AI == AIType.AI_Mage || AI == AIType.AI_Necro || AI == AIType.AI_NecroMage || AI == AIType.AI_Mystic || AI == AIType.AI_Spellweaving || AI == AIType.AI_EnergyVortex))
 
             {
                 SetMagicalAbility(MagicalAbility.Magery);
@@ -5253,7 +5257,7 @@ namespace Server.Mobiles
             if (!Controlled && name == SkillName.Magery &&
                 (AbilityProfile == null || !AbilityProfile.HasAbility(MagicalAbility.Magery)) && 
                 Skills[SkillName.Magery].Base > 0 && 
-                (AI == AIType.AI_Mage || AI == AIType.AI_Necro || AI == AIType.AI_NecroMage || AI == AIType.AI_Mystic || AI == AIType.AI_Spellweaving))
+                (AI == AIType.AI_Mage || AI == AIType.AI_Necro || AI == AIType.AI_NecroMage || AI == AIType.AI_Mystic || AI == AIType.AI_Spellweaving || AI == AIType.AI_EnergyVortex))
 
             {
                 SetMagicalAbility(MagicalAbility.Magery);

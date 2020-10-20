@@ -2094,6 +2094,7 @@
     <Compile Include="Misc\UntamedPetsCleaning.cs" />
     <Compile Include="Misc\Waypoints.cs" />
     <Compile Include="Misc\WorldLocationInfo.cs" />
+    <Compile Include="Mobiles\AI\Magical AI\EnergyVortexAI.cs" />    
     <Compile Include="Mobiles\AI\Magical AI\MageAI.cs" />
     <Compile Include="Mobiles\AI\Magical AI\MysticAI.cs" />
     <Compile Include="Mobiles\AI\Magical AI\NecroAI.cs" />
