@@ -14,7 +14,7 @@ namespace Server.Mobiles
 
         [Constructable]
         public BladeSpirits(bool summoned)
-            : base(AIType.AI_Melee, FightMode.Closest, 10, 1, 0.3, 0.6)
+            : base(AIType.AI_Melee, FightMode.Closest, 10, 1, 0.2, 0.4)
         {
             this.Name = "a blade spirit";
             this.Body = 574;
@@ -26,10 +26,10 @@ namespace Server.Mobiles
             this.SetInt(100);
 
             this.SetHits((Core.SE && !weak) ? 160 : 80);
-            this.SetStam(250);
+            this.SetStam(450);
             this.SetMana(0);
 
-            this.SetDamage(10, 14);
+            this.SetDamage(8, 12);
 
             this.SetDamageType(ResistanceType.Physical, 60);
             this.SetDamageType(ResistanceType.Poison, 20);
@@ -103,7 +103,7 @@ namespace Server.Mobiles
         {
             get
             {
-                return (0.8 >= Utility.RandomDouble() ? Poison.Greater : Poison.Deadly);
+                return (0.8 >= Utility.RandomDouble() ? Poison.Regular : Poison.Greater);
             }
         }
         public override double HitPoisonChance

@@ -110,6 +110,20 @@ namespace Server.Mobiles
                 return Poison.Lethal;
             }
         }
+        public override Poison HitPoison
+        {
+            get
+            {
+                return (0.7 >= Utility.RandomDouble() ? Poison.Greater : Poison.Deadly);
+            }
+        }
+        public override double HitPoisonChance
+        {
+            get
+            {
+                return 0.20;
+            }
+        }
         public override double GetFightModeRanking(Mobile m, FightMode acqType, bool bPlayerOnly)
         {
             return (m.Int + m.Skills[SkillName.Magery].Value) / Math.Max(GetDistanceToSqrt(m), 1.0);

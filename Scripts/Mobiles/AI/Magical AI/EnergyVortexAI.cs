@@ -14,7 +14,7 @@ namespace Server.Mobiles
 		
 		public override Spell ChooseSpell(IDamageable c)
 		{
-			var select = 1;
+			var select = 2;
 			
 			if (c == null || !c.Alive)
 				return null;
