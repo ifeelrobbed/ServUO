@@ -126,6 +126,8 @@ namespace Server.SkillHandlers
 
                         double diff = ((m_Instrument.GetDifficultyFor(m_Creature) + m_Instrument.GetDifficultyFor(target)) * 0.5) - 5.0;
                         double music = from.Skills[SkillName.Musicianship].Value;
+			double peace = from.Skills[SkillName.Peacemaking].Value;
+			double disco = from.Skills[SkillName.Discordance].Value;
                         int masteryBonus = 0;
 
                         if (from is PlayerMobile)
@@ -137,6 +139,14 @@ namespace Server.SkillHandlers
                         if (music > 100.0)
                         {
                             diff -= (music - 100.0) * 0.5;
+                        }
+                        if (peace >= 100.0)
+                        {
+                            diff -= 5.0;
+                        }
+                        if (disco >= 100.0)
+                        {
+                            diff -= 5.0;
                         }
 
                         if (questTargets || (from.CanBeHarmful(m_Creature, true) && from.CanBeHarmful(target, true)))
