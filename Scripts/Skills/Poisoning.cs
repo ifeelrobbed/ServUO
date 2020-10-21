@@ -68,7 +68,7 @@ namespace Server.SkillHandlers
                         {
                             startTimer = (weapon.PrimaryAbility == WeaponAbility.InfectiousStrike || weapon.SecondaryAbility == WeaponAbility.InfectiousStrike);
                         }
-                        else if (weapon.Layer == Layer.OneHanded)
+                        else // if (weapon.Layer == Layer.OneHanded) **per uo stratics 2000 any bladed piercing 
                         {
                             // Only Bladed or Piercing weapon can be poisoned
                             startTimer = (weapon.Type == WeaponType.Slashing || weapon.Type == WeaponType.Piercing);
