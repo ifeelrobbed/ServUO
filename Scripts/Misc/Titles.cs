@@ -217,7 +217,7 @@ namespace Server.Misc
 
             bool showSkillTitle = beheld.ShowFameTitle && ((beholder == beheld) || (beheld.Fame >= 5000));
 
-            if (Core.SA && beheld.ShowFameTitle && beheld is PlayerMobile && ((PlayerMobile)beheld).FameKarmaTitle != null)
+            if (Core.T2A && beheld.ShowFameTitle && beheld is PlayerMobile && ((PlayerMobile)beheld).FameKarmaTitle != null) // Core.SA
             {
                 title.AppendFormat(((PlayerMobile)beheld).FameKarmaTitle, beheld.Name, beheld.Female ? "Lady" : "Lord");
             }
@@ -271,7 +271,7 @@ namespace Server.Misc
 
             string customTitle = beheld.Title;
 
-            if (Core.SA)
+            if (Core.T2A) // Core.SA
             {
                 if (beheld is PlayerMobile && ((PlayerMobile)beheld).PaperdollSkillTitle != null)
                     title.Append(", ").Append(((PlayerMobile)beheld).PaperdollSkillTitle);

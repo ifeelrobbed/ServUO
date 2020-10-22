@@ -30,6 +30,9 @@ namespace Server.Misc
                 itemCount, itemCount == 1 ? "" : "s",
                 mobileCount, mobileCount == 1 ? "" : "s");
 
+		m.SendMessage(0x35, "Note: The following skills, uh, shouldn't exist yet. I wouldn't advise trying to train them.");
+		m.SendMessage(0x35, "Necromancy, Ninjistsu, Chivalry Bushido, Spellweaving, Mysticism");
+
             if (m.IsStaff())
             {
                 Server.Engines.Help.PageQueue.Pages_OnCalled(m);

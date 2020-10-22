@@ -2338,7 +2338,7 @@ namespace Server.Mobiles
 					}
 				}
 
-                if (Core.SA)
+                if (Core.T2A) // default SA
                 {
                     list.Add(new TitlesMenuEntry(this));
 				}
