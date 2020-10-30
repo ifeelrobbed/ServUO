@@ -6,7 +6,7 @@ namespace Server.UOBlackBox
 {
     class BBControlBox : Item
     {
-        private const string Fixed_Version = "1.0.0.151";
+        private const string Fixed_Version = "1.0.0.154";
 
         private PlayerMobile PM { get; set; }
 
@@ -41,17 +41,15 @@ namespace Server.UOBlackBox
 
         private PlayerMobile SetUser(string name)
         {
-            PlayerMobile player = null;
-
             foreach (Mobile mobile in World.Mobiles.Values)
             {
                 if (mobile.Name == name)
                 {
-                    player = mobile as PlayerMobile;
+                    return mobile as PlayerMobile;
                 }
             }
-
-            return player;
+            
+            return null;
         }
 
         public BBControlBox(Serial serial) : base(serial)
@@ -62,14 +60,12 @@ namespace Server.UOBlackBox
         {
              PlayerMobile pm = from as PlayerMobile;
 
-            if (PM == null || pm.Name != PM.Name || PM.AccessLevel < AccessLevel.Counselor)
+            if (PM == null || pm.Name != GetUserName() || PM.AccessLevel < AccessLevel.Counselor)
             {
                 Delete();
             }
             else
             {
-                PM = pm;
-
                 if (IsChildOf(pm.Backpack))
                 {
                     if (BBServerClient.ServerIsRunning)

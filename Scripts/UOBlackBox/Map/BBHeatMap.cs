@@ -34,8 +34,6 @@ namespace Server.UOBlackBox
 
         public static void Initialize()
         {
-            StartUp();
-
             IsLocked = 0;
 
             if (CreatureDeaths_Locations == null)
@@ -54,6 +52,8 @@ namespace Server.UOBlackBox
                 VendorBuy_Locations = new List<string>();
             if (VendorSell_Locations == null)
                 VendorSell_Locations = new List<string>();
+
+            StartUp();
         }
 
         private static void StartUp()

@@ -296,9 +296,6 @@ namespace Server.UOBlackBox
                                                 catch
                                                 {
                                                     Staff_Player.SendMessage("Bad Location, Failed to move to that location!");
-
-                                                    //string CMD = ("self set map " + MapName + " x " + LocX + " y " + LocY + " z " + MapZ);
-                                                    //CommandSystem.Handle(Staff_Player, (CommandSystem.Prefix + CMD), Network.MessageType.Regular);
                                                 }
 
                                                 break;

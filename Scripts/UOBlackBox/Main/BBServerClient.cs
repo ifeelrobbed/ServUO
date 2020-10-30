@@ -4,8 +4,6 @@ using System;
 using System.Runtime.Remoting;
 using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Tcp;
-using System.Threading.Tasks;
-using Server.OneTime.Events;
 
 namespace Server.UOBlackBox
 {
@@ -13,11 +11,10 @@ namespace Server.UOBlackBox
     {
         static readonly string Host = "tcp://localhost";
         static readonly int Port = 8090;
+        
+        static UOBlackBoxService.UOBlackBoxService _RemoteService { get; set; }
 
         static TcpChannel _Channel { get; set; }
-
-        static IUOBlackBoxService.IUOBlackBoxService _Client { get; set; }
-        static UOBlackBoxService.UOBlackBoxService _RemoteService { get; set; }
 
         public static bool ServerIsRunning { get; set; }
 
@@ -48,11 +45,6 @@ namespace Server.UOBlackBox
                     }
                 }
 
-                Counter = 0;
-                IsLocked = 0;
-
-                OneTimeMilliEvent.MilliTimerTick += SendCommandTick;
-
                 UOBlackBoxService.UOBlackBoxService.CommandCall += CallServer;
 
                 ServerIsRunning = true;
@@ -63,76 +55,15 @@ namespace Server.UOBlackBox
             }
         }
 
-        private static void CallServer(object sender, EventArgs e)
+        private static void CallServer(object sender, UOBlackBoxService.CommandCallArgs e)
         {
-            Counter = 50; //TODO: Testing to see if this works well before deciding to edit/change/remove it!
-
-            SendCommand(new BBPacket("SERVER", BBPacket.CommandTypes.GENERIC_COMMAND, "Check_Client_Commands", "", "GET_COMMAND"));
+            ReceiveRemoteCmd(e.Command_Arg);
         }
-
-        private static int Counter { get; set; }
-
-        private static void SendCommandTick(object sender, EventArgs e)
-        {
-            if (Counter > 99)
-            {
-                SendCommand(new BBPacket("SERVER", BBPacket.CommandTypes.GENERIC_COMMAND, "Check_Client_Commands", "", "GET_COMMAND"));
-
-                Counter = 0;
-            }
-            else
-            {
-                Counter++;
-            }
-        }
-
-        private static int IsLocked { get; set; }
 
         public static void SendCommand(BBPacket packet)
         {
-            try
-            {
-                if (packet.Name == "SERVER")
-                    IsLocked++;
-                else
-                    IsLocked = 1;
-
-                if (IsLocked == 1)
-                {
-                    _Client = (IUOBlackBoxService.IUOBlackBoxService)Activator.GetObject(typeof(IUOBlackBoxService.IUOBlackBoxService), Host + ":" + Port + "/RegisterCommand");
-
-                    //ReceiveRemoteCmd(_Client.RegisterCommand(packet.Passcode, packet.Name, (int)packet.CommandType, packet.Command, packet.Data, packet.Args)); //Old Ref (Don't Remove)
-
-                    if (packet.Name != "SERVER")
-                        BBServerMessage.LogPacketCMD(packet.Name, "SEND_DATA : " + packet.Command, false);
-
-                    Task<string> RetreiveCMD = Task.Run(() => _Client.RegisterCommand(packet.Passcode, packet.Name, (int)packet.CommandType, packet.Command, packet.Data, packet.Args));
-
-                    Task.WaitAll(RetreiveCMD);
-
-                    System.Runtime.CompilerServices.TaskAwaiter<string> _Reply = RetreiveCMD.GetAwaiter();
-
-                    string Result = _Reply.GetResult();
-
-                    ReceiveRemoteCmd(Result);
-
-                    IsLocked = 0;
-                }
-                else if (IsLocked > 50)
-                {
-                    IsLocked = 0; //to auto unlock as there might be a freeze up happening!
-                }
-                else
-                {
-                    //do nothing
-                }
-            }
-            catch (Exception ex)
-            {
-                BBServerMessage.LogPacketCMD("ERROR", "UO Black Box Service : Failed : " +ex.Message, true);
-
-                IsLocked = 0;
-            }
+            if (_RemoteService.ReturnDataList != null)
+                _RemoteService.ReturnDataList.Add($"{packet.Name}:{(int)packet.CommandType}:{packet.Command}:{packet.Data}:{packet.Args}");
         }
 
         private static void ReceiveRemoteCmd(string reply)
