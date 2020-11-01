@@ -285,6 +285,11 @@ namespace Server.Mobiles
         public double CommissionPerc { get { return 5.25; } }
         public virtual bool IsCommission { get { return false; } }
 
+	private Timer m_RandBuyTimer;
+	private Timer m_AdTimer;
+
+	public List<string> RecentSales = new List<string>();
+
         public PlayerVendor(Mobile owner, BaseHouse house)
         {
             Owner = owner;
@@ -325,6 +330,17 @@ namespace Server.Mobiles
 
                 NextPayTime = DateTime.UtcNow + delay;
             }
+
+	    // + PV update +
+	    m_RandBuyTimer = new RandomBuyTimer( this, RandomBuyTimer.GetInterval() );
+	    m_RandBuyTimer.Start();
+
+	    if (PVBotSettings.EnableRandomAds)
+	    {
+		m_AdTimer = new RandomAdTimer( this, RandomAdTimer.GetInterval() );
+		m_AdTimer.Start();
+	    }
+	    // - PV update -
 
             if (PlayerVendors == null)
                 PlayerVendors = new List<PlayerVendor>();
@@ -481,7 +497,13 @@ namespace Server.Mobiles
         public override void Serialize(GenericWriter writer)
         {
             base.Serialize(writer);
-            writer.Write((int)2); // version
+	    // + PV update +
+            writer.Write((int)3); // version
+
+	    writer.Write( RecentSales.Count ); // recent sales
+	    for (int i = 0; i < RecentSales.Count; i++)
+		writer.Write( RecentSales[i] );
+	    // - PV update -
 
             writer.Write((bool)VendorSearch);
             writer.Write((bool)BaseHouse.NewVendorSystem);
@@ -513,6 +535,14 @@ namespace Server.Mobiles
 
             switch (version)
             {
+		case 3: // + PV update +
+		    {
+			int cnt = reader.ReadInt();
+			RecentSales.Clear();
+			for (int i = 0; i < cnt; i++)
+			    RecentSales.Add( reader.ReadString() );
+			goto case 2;
+		    } // - PV update -
                 case 2:
                     {
                         VendorSearch = reader.ReadBool();
@@ -595,6 +625,17 @@ namespace Server.Mobiles
                 m_PayTimer = new PayTimer(this, delay > TimeSpan.Zero ? delay : TimeSpan.Zero);
                 m_PayTimer.Start();
             }
+
+	    // + PV update +
+	    m_RandBuyTimer = new RandomBuyTimer( this, RandomBuyTimer.GetInterval() );
+	    m_RandBuyTimer.Start();
+
+	    if (PVBotSettings.EnableRandomAds)
+	    {
+		m_AdTimer = new RandomAdTimer( this, RandomAdTimer.GetInterval() );
+		m_AdTimer.Start();
+	    }
+	    // - PV update -
 
             Blessed = false;
 
@@ -756,6 +797,16 @@ namespace Server.Mobiles
             {
                 m_PayTimer.Stop();
             }
+	    // + PV update +
+            if (m_AdTimer != null)
+            {
+                m_AdTimer.Stop();
+            }
+            if (m_RandBuyTimer != null)
+            {
+                m_RandBuyTimer.Stop();
+            }
+	    // - PV update -
 
             House = null;
 
@@ -833,12 +884,6 @@ namespace Server.Mobiles
                 return false;
             }
 
-            if (item is SecretChest && ((SecretChest)item).Locked)
-            {
-                SayTo(from, 1151612); // I cannot accept a number key locked item.
-                return false;
-            }
-
             if (item is Gold)
             {
                 if (BaseHouse.NewVendorSystem)
@@ -901,12 +946,6 @@ namespace Server.Mobiles
         {
             if (IsOwner(from))
             {
-                if (item is SecretChest && ((SecretChest)item).Locked)
-                {
-                    SayTo(from, 1151612); // I cannot accept a number key locked item.
-                    return false;
-                }
-
                 if (GetVendorItem(item) == null)
                 {
                     // We must wait until the item is added
@@ -1302,7 +1341,14 @@ namespace Server.Mobiles
                     e.Handled = true;
                 }
             }
-        }
+
+	    // + PV update +
+	    if (!e.Handled)
+	    {
+		e.Handled = PVBotUtils.HandleBotSpeech(this, from, e);
+	    }
+	    // - PV update -
+	}
 
         public override bool CanBeDamaged()
         {
@@ -1493,7 +1539,7 @@ namespace Server.Mobiles
 
             public static TimeSpan GetInterval()
             {
-                if (BaseHouse.NewVendorSystem)
+                if (BaseHouse.NewVendorSystem && !PVBotSettings.ChargeForServicePerUODay) // +PV update +
                     return TimeSpan.FromDays(1.0);
                 else
                     return TimeSpan.FromMinutes(Clock.MinutesPerUODay);
@@ -1505,10 +1551,11 @@ namespace Server.Mobiles
 
                 int pay;
                 int totalGold;
-                if (BaseHouse.NewVendorSystem)
+                if (BaseHouse.NewVendorSystem && !PVBotSettings.ChargeForServicePerUODay) // +PV update +
                 {
                     pay = m_Vendor.ChargePerRealWorldDay;
-                    totalGold = m_Vendor.HoldGold;
+                    //totalGold = m_Vendor.HoldGold; // +PV update +
+		    totalGold = m_Vendor.BankAccount + m_Vendor.HoldGold; // +PV update +
                 }
                 else
                 {
@@ -1540,6 +1587,8 @@ namespace Server.Mobiles
                 }
             }
         }
+
+	// - PV update -
 
         [PlayerVendorTarget]
         private class PVBuyTarget : Target
