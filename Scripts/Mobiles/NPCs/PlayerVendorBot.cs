@@ -44,8 +44,8 @@ namespace Server
 	public static int SBListMaxFixed = 10; // How many SB price lists will be considered at each sale check iteration
 	public static int SBListMaxRandom = 10; // How many additional SB price lists will be considered at each iteration in addition to the fixed amount above
 	public static int PriceThresholdForAttributeCheck = 2500000; // The items priced at above this value will no longer receive further bonuses from attributes
-	public static bool PreAOSResourceBonus = false; // if true, resource type will be accounted for when deciding item worth, good for Pre-AoS (T2A, UOR, etc.) shards.
-	public static bool PreAOSQualityBonus = false; // if true, will apply a bigger quality bonus (1.5x / 0.5x) to items, which is good for Pre-AoS (T2A, UOR, etc.) shards.
+	public static bool PreAOSResourceBonus = true; // if true, resource type will be accounted for when deciding item worth, good for Pre-AoS (T2A, UOR, etc.) shards.
+	public static bool PreAOSQualityBonus = true; // if true, will apply a bigger quality bonus (1.5x / 0.5x) to items, which is good for Pre-AoS (T2A, UOR, etc.) shards.
 	public static bool IncreasePriceBasedOnNumberOfProps = true; // if true, items with many beneficial props will sell for more money
 	public static int AttrsMod1Or2Props = 1; // price multiplier if the item has 1-2 beneficial props
 	public static int AttrsMod3Or4Props = 2; // price multiplier if the item has 3-4 beneficial props
