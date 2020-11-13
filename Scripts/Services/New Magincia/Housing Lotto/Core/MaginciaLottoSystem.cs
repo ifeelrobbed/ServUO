@@ -14,9 +14,9 @@ namespace Server.Engines.NewMagincia
 {
     public class MaginciaLottoSystem : Item
     {
-        public static readonly TimeSpan DefaultLottoDuration = TimeSpan.FromDays(30);
-        public static readonly int WritExpirePeriod = 30;
-        public static readonly bool AutoResetLotto = false;
+        public static readonly TimeSpan DefaultLottoDuration = TimeSpan.FromDays(1);
+        public static readonly int WritExpirePeriod = 1;
+        public static readonly bool AutoResetLotto = true;
 
         private static int m_GoldSink;
         private static MaginciaLottoSystem m_Instance;
